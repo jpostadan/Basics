@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="While"></p>
+    <p id="place"></p>
+    <script>
+//         for (let a = 0; a <= 5; a ++) {
+//             document.write("Holly Week is comming!! <br>");
+            
+//         } 
+          
+//         for (let num=1; num <=5; num++){
+//                 document.write( num + "<br>");
+//             }
+
+// // declaring an object
+
+//         const Getaway = {
+//             firstplace: 'Panama Beach Resort',
+//             secondplace: 'Pico De Loro Reosrt',
+//             thridplace: 'Stilts Beach Resort',
+//         }
+
+//         let places = '';
+
+//         for(let item in Getaway){
+//             places+= Getaway[item] + '<br>';
+//         }
+//         document.getElementById('place').innerHTML = places;
+
+//         let a = 1;
+//         let b=10;
+//         while (a<=b){
+//             document.write(a + '<br>');
+//             a+=1 ;
+//         }
+
+//         var print = "";
+//         var i = 1;
+
+//         while(i<4) {
+//             print += "Number" + i + "<br>";
+//             i+=1;
+//         }
+//         document.getElementById("While").innerHTML = print;
+
+//         let num = 1;
+//         const x = 10;
+
+//         do {
+//             document.write(num);
+//             num ++;
+//         } while (num <= x);
+
+
+        const arr= [9,45,1,6,3,7,8,9,2,54,0,12,45]
+        
+        for(let i = 0; i < arr.length; i++) {  
+            for(let j = i + 1; j < arr.length; j++) {  
+                if(arr[i] == arr[j])  
+                document.write(arr[j] + '<br>')
+                      
+            }  
+            
+        }  
+       
+    </script>
+</body>
+</html>
